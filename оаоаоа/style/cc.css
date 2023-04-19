@@ -1,0 +1,34 @@
+h1, h2, h3, h4, h5,a , body {
+    margin: 0px;
+}
+
+.container_email {
+    background-color: blue;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container_email_content {
+    max-width: 1200px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    padding: 20px 10px 20px 10px;
+}
+
+input[type="email"] {
+    background-color: blue;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    border: 1px solid snow;
+    border-radius: 5px;
+    color: snow;
+}
+
+input[placeholder] ::placeholder {
+    color: snow;
+    -webkit-input-placeholder: snow;
+}
